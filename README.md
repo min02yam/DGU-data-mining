@@ -1,2 +1,2 @@
 # DGU-data-mining
-Data mining final project : SAS, R, Python
+Final project using Logistic Regression : SAS, R, Python
