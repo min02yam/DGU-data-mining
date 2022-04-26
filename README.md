@@ -8,3 +8,6 @@ Final project using Logistic Regression : SAS, R, Python
  
 
 ## 목차 
+
+
+## 추가 - R코드
