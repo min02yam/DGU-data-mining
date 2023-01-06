@@ -38,23 +38,23 @@ new0243.cor<-cor(new2543)
 new0243.cor.1<-corrplot(new0143.cor, method="number")  
 corrplot(new0243.cor.1,
          method = "color",       
-                 type = "lower",         # ¿ŞÂÊ ¾Æ·¡ Çà·Ä¸¸ Ç¥½Ã
-         order = "hclust",       # À¯»çÇÑ »ó°ü°è¼ö³¢¸® ±ºÁıÈ­
-         addCoef.col = "black",  # »ó°ü°è¼ö »ö±ò
-         tl.col = "black",       # º¯¼ö¸í »ö±ò
-         tl.srt = 45,            # º¯¼ö¸í 45µµ ±â¿ïÀÓ
-         diag = F)               # ´ë°¢ Çà·Ä Á¦¿Ü
+                 type = "lower",         # ì™¼ìª½ ì•„ë˜ í–‰ë ¬ë§Œ í‘œì‹œ
+         order = "hclust",       # ìœ ì‚¬í•œ ìƒê´€ê³„ìˆ˜ë¼ë¦¬ êµ°ì§‘í™”
+         addCoef.col = "black",  # ìƒê´€ê³„ìˆ˜ ìƒ‰ê¹”
+         tl.col = "black",       # ë³€ìˆ˜ëª… ìƒ‰ê¹”
+         tl.srt = 45,            # ë³€ìˆ˜ëª… 45ë„ ê¸°ìš¸ì„
+         diag = F)               # ëŒ€ê° í–‰ë ¬ ì œì™¸
 
-new2543.prcor<-rcorr(as.matrix(tic2000), type="pearson")   #H0: ¥ñ=0 27 
-
-
+new2543.prcor<-rcorr(as.matrix(tic2000), type="pearson")   #H0: Ï=0 27 
 
 
 
 
-prcor<-rcorr(as.matrix(tic2000), type="pearson")   #H0: ¥ñ=0 27 
-# MSKB2 ¼Ò¼È Å¬·¡½º B2 , 33 MAUT2   2Â÷ 2cars
-# 38 MINK3045 ¼Òµæ 30-45.000, 41 MINK123M ¼öÀÔ >123.000
+
+
+prcor<-rcorr(as.matrix(tic2000), type="pearson")   #H0: Ï=0 27 
+# MSKB2 ì†Œì…œ í´ë˜ìŠ¤ B2 , 33 MAUT2   2ì°¨ 2cars
+# 38 MINK3045 ì†Œë“ 30-45.000, 41 MINK123M ìˆ˜ì… >123.000
 
 ?grid.arrange
 install.packages("gridExtra")
@@ -146,12 +146,12 @@ hist(races.table[,j]
 par(mfrow=c(1,2))
 cr
 races.lm2<-lm(Tome~Distance , )
-Äî µğ½ºÅÏ½º 18 Å«°ªÀÌ¿©¼­/ 
+ì¿¡ ë””ìŠ¤í„´ìŠ¤ 18 í°ê°’ì´ì—¬ì„œ/ 
 summary(races.table)
 summary(rsseee.lm2 ) 
 4.04
 6.143
-#mse ÁÙ¾îµê 24->6À¸·Î ÁÙ¾îµê È®ÀÎ °¡´É
+#mse ì¤„ì–´ë“¦ 24->6ìœ¼ë¡œ ì¤„ì–´ë“¦ í™•ì¸ ê°€ëŠ¥
 
 
 
