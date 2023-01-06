@@ -42,7 +42,7 @@ ls()
 ticeval2000<-read.table("ticeval2000.txt", sep="	")
 tictgts2000<-read.table("tictgts2000.txt", sep="	")
 ticdata2000<-read.table("ticdata2000.txt", sep="	")
-names<-read.table("names.csv", sep=",") #º¯¼ö¸í µ¥ÀÌÅÍ¼Â
+names<-read.table("names.csv", sep=",") #ë³€ìˆ˜ëª… ë°ì´í„°ì…‹
 
 names(ticdata2000);  names(tictest2000) 
 names(tictgts2000)<-"V86"
@@ -61,7 +61,7 @@ for ( i in 1:ncol(tic2000) ) {
 print(names(tic2000))
 str(tic2000)
 
-#4¿ù14ÀÏ 1)µ¥ÀÌÅÍ ÇÕÄ§ 2)º¯¼ö¸íÁöÁ¤
+#4ì›”14ì¼ 1)ë°ì´í„° í•©ì¹¨ 2)ë³€ìˆ˜ëª…ì§€ì •
 ############################################################
 
 
