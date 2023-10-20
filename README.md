@@ -1,13 +1,15 @@
-# DGU-data-mining
-Final project using Logistic Regression : SAS, R, Python
+# 로지스틱 회귀 분석을 활용한 캐러밴 보험 구매 여부 예측 및 지역별 마케팅 전략 제안
+2021년 1학기 데이터마이닝 과목을 수강하며 진행한 팀 프로젝트입니다.
 
-#### - `SAS`: EDA, Preprocessing, Feature Engineering, Modeling-Logistic Regression, Evaluation
-#### - `R`: EDA, Sampling
-#### - `Python`: EDA, Modeling-etc.
-
- 
-
-## 목차 
-
-
-## 추가 - R코드
+---
+## 프로젝트 요약
+1. 기간: ‘21.04.~‘21.06 (2개월)
+2. 역할: 데이터 분석 및 PT 발표 (총 4명) 
+3. 언어 및 툴: SAS, R, Python
+4. 주요 내용
+- 카이스퀘어와 Fisher의 정확 검정으로 피처 선정
+- 설명변수 범주 재조정시 분할표 비율의 차이 0.3내외로 조정
+- SAS 매크로문 작성으로 76개의 지시변수 생성
+1. 주요 결과
+- 사회 계급이 B1인 고객 비율이 100%인 지역일수록 보험 구매 확률이 높은 것을 발견함
+- 최상 계급(A)의 비율이 높은 지역일수록 보험 구매 확률이 높은 것은 아니라는 것을 알 수 있었으며 이를 통한 지역 기반 마케팅 전략 제시
